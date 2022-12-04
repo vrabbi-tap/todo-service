@@ -18,10 +18,14 @@ spec:
       title: OpenAPI definition
       version: v0
     servers:
-    - url: https://todo-service-demos.apps.taptest.tanzutime.com/api
+    - url: https://todo-service-demos.run.vrabbi.cloud/api
       description: Test environment
-    - url: https://todo-service-demos.apps.tapprod.tanzutime.com/api
-      description: Production environment
+    - url: https://todo-service-demos.dev.vrabbi.cloud/api
+      description: Dev environment
+    - url: https://todo-service-demos.qa.vrabbi.cloud/api
+      description: QA environment
+    - url: https://todo-service-demos.prod.vrabbi.cloud/api
+      description: Prod environment
     paths:
       /profile:
         get:
